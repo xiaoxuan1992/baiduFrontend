@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务四：定位和居中问题</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 400px;
+            height: 200px;
+            background-color: #cccccc;
+            margin:  auto;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            position: absolute;
+         /*   position: 为absolute为绝对定位，根据top等属性确定位置，原本的空位会被下一个容器取代，
+                        以上一个定位的（不是static）元素为基准，没有的话就是body文档本身。
+                        为absolute为绝对定位，根据top等属性确定位置，原本的空位不会被下一个容器取代，留白。
+                        为fixed为固定定位，根据top等属性确定位置，不随浏览器大小改变而改变。
+         */
+        }
+        .circle{
+            background-color: #ffc31b;
+            width: 50px;
+            height: 50px;
+            -webkit-border-radius: 200px 0 0 0;
+            /*-moz-transform:scaleY(-1);*/
+            /*-webkit-transform:scaleY(-1);*/
+            /*-o-transform:scaleY(-1);*/
+            /*transform:scaleY(-1);*/
+        }
+        .circle:first-child{
+            transform: rotate(180deg);
+            -ms-transform: rotate(180deg);		/* IE 9 */
+            -webkit-transform: rotate(180deg);	/* Safari and Chrome */
+            -o-transform: rotate(180deg);		/* Opera */
+            -moz-transform: rotate(180deg);
+        }
+        .circle:last-child{
+            bottom: 0;
+            right: 0;
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="circle" ></div>
+        <div class="circle" ></div>
+    </div>
+</body>
+</html>
