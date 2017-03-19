@@ -1,0 +1,152 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #d8d8d8;
+}
+header,.footer{
+    height: 60px;
+    background-color: black;
+    color: white;
+}
+.logo{
+    height: 50px;
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+}
+header ul{
+    float: right;
+    margin-right: 20px;
+}
+header ul li{
+    float: left;
+    margin-left: 20px;
+    list-style-type: none;
+
+}
+header ul li a{
+  color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 12px;
+}
+header ul li a.grey{
+    color: #939eb0;
+}
+
+/*应该把右边的先写，然后再写左边。
+因为DIV的默认样式是block，每个div都会自动断行。
+如果先写左边，再写右边的话，因为左边没有float漂浮，右边的会在右部断行；
+所以编写时，先写右边，再写左边，右边是float的。*/
+.right{
+    float: right;
+    width: 380px;
+}
+.left{
+  /*  float: left;*/
+    margin-right: 400px;
+}
+aside{
+    font-size: 14px;
+    background-color: white;
+    padding: 20px;
+    margin: 0 20px 20px 0;
+}
+aside h3{
+    border-left: 5px solid silver;  /*h3前面的竖线*/
+    height: 30px;
+    line-height: 30px;
+    padding-left: 20px;
+}
+aside td:first-child{
+    text-align: right;
+}
+aside input,aside select{
+    padding: 3px;
+}
+.note{
+    color: lightgray;
+    font-size: 12px;
+}
+aside tr{
+    line-height: 30px;
+}
+.submit{
+    width: 100%;
+    background-color: blue;
+    padding: 3px 5px;
+    margin: 0 auto;
+    border-radius: 10px;
+    color: white;
+    height: 40px;
+}
+
+/*文章*/
+article{
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+article h3,article h4{
+    color: rgba(188, 188, 188, 0.89);
+}
+article h4{
+    color: #d8d8d8;
+}
+article p{
+    line-height: 30px;
+    text-indent: 2em;
+}
+article img{
+    height: 200px;
+    width: 200px;
+}
+.withoutPoint li{
+    list-style-type: none;
+    line-height: 25px;
+}
+
+/*图片*/
+.photo{
+    float: left;
+    border: 1px solid gainsboro;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.photo img{
+    width: 100px;
+    height: 100px;
+}
+.photo p{
+   text-indent: initial;
+    padding-left: 10px;
+}
+
+ol li{
+    line-height: 25px;
+}
+article table{
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-collapse:collapse;
+    text-align: left;
+}
+article table th{
+     background-color: black;
+     color: white;
+ }
+article table th,article table td{
+    border-right: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding-left: 10px;
+    height: 25px;
+    line-height: 25px;
+}
+article table tr:last-child{
+    background-color: lightgray;
+}
+.footer p{
+    margin: 20px;
+    line-height: 60px;
+    text-align: center;
+}
