@@ -145,7 +145,7 @@ h3{
 /*两列*/
 #columnListTwo{
     margin-top: 50px;
-    border-bottom: 1px solid #938e8c;
+
 }
 .columnListTwoRight{
     width: 460px;
@@ -237,11 +237,19 @@ h3{
     height: 32px;
     line-height: 32px;
 }
-.mark{
-    font-size: 36px;
+.mark1,.mark2{
+    font: 72px/72px 黑体;
     color: #d45d5c;
-    font-family: 黑体;
+    height: 25px;
 }
+.mark1{
+    float: left;
+    margin-left: -30px;
+}
+.mark2{
+    float: right;
+}
+
 .helloWorld{
     font-size: 14px;
     color: #5a5b5b;
@@ -250,3 +258,11 @@ h3{
     line-height: 1.2;
 }
 
+.footer{
+    border-top: 1px solid #938e8c;
+}
+.footer p{
+    color: #d45d5c;
+    font-family: 黑体;
+    float: right;
+}
