@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务七：实现常见的技术产品官网的页面架构及样式布局</title>
+    <link rel="stylesheet" href="../css/task_7.css">
+</head>
+<body>
+<!--header-->
+    <header>
+            <img src="../images/headerLogo.png" width="31" height="31">
+            <span>新世界</span>
+        <ul>
+            <li><a href="#" class="active">首页</a></li>
+            <li><a href="#">最新活动</a></li>
+            <li><a href="#">项目介绍</a></li>
+            <li><a href="#">爱心社区</a></li>
+            <li><a href="#">关于我们</a></li>
+            <li><a href="#"><img src="../images/login.png">登录</a></li>
+        </ul>
+    </header>
+
+<!--大图-->
+    <div class="bigImg">
+            <img src="../images/pic1.png" >
+            <img src="../images/pic1Zhe.png" style="opacity: 0.2">
+        <div class="Time">
+            <h1>Time of new life</h1>
+            <h2>新时代，年轻的人们让我们一起</h2>
+            <h2>体验新生活，享受新生活</h2>
+            <a><h1>开始体验</h1></a>
+        </div>
+    </div>
+
+<!--四列-->
+    <div class="com_4">
+        <div class="com">
+            <img src="../images/comn1.png">
+            <h3>打造全新世界观，让你更爱你的生活</h3>
+        </div>
+        <div class="com">
+            <img src="../images/comn2.png">
+            <h3>丰富多彩的公益活动，发挥新世界的主人公意识</h3>
+        </div>
+        <div class="com">
+            <img src="../images/comn3.png">
+            <h3>时尚的新理念，超前体验未知的生活</h3>
+        </div>
+        <div class="com">
+            <img src="../images/comn4.png">
+            <h3 style="border-right: none">完善的培养机制，培养你全新的世界观</h3>
+        </div>
+    </div>
+
+    <div style="clear:both;"></div>
+
+<!--查找新世界活动-->
+    <div class="activity">
+        <p><img src="../images/pic.png" width="128" height="109"></p>
+        <h1>关于新世界，你不知道的还有什么？</h1>
+        <div class="map">
+            <img src="../images/map.png" height="349">
+            <img src="../images/mapZhe.png" height="349" style="opacity: 0.2">
+            <div class="searchMap">
+                <h2>查找新世界城市活动信息</h2>
+                <h3>每个城市都有不同的活动信息，请自主查询你所需要了解的城市</h3>
+                <div id="chooseMap">
+                    <div class="map1">
+                        <select>
+                            <option selected="selected">中国</option>
+                        </select>
+                    </div>
+                    <div class="map1">
+                        <select>
+                            <option selected="selected">省份</option>
+                            <option>北京市</option>
+                            <option>天津市</option>
+                        </select>
+                    </div>
+                    <div class="map1">
+                        <select>
+                            <option selected="selected">城市</option>
+                            <option>北京</option>
+                        </select>
+                    </div>
+                    <div class="map1">
+                        <a href="#">搜  索</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="shanghai">
+            <ul>
+                <li>
+                    <img src="../images/active1.png">
+                    <p class="picDescribe">北京活动</p>
+                    <p>新社区大联盟</p>
+                </li>
+                <li>
+                    <h2>上海活动</h2>
+                    <p>夜上海新景观探索</p>
+                    <img src="../images/active2.png">
+                </li>
+                <li>
+                    <img src="../images/active3.png">
+                    <p class="picDescribe">深圳活动</p>
+                    <p>全新海岸线观点站</p>
+                </li>
+                <li>
+                    <img src="../images/active4.png">
+                    <p class="picDescribe">香港活动</p>
+                    <p>奢侈消费大派送</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+<!--新世界介绍-->
+    <div class="com_2">
+        <div class="left">
+            <img src="../images/TIME.png">
+            <h2>新世界</h2>
+            <h1>TIME</h1>
+            <h3>@新世界—北京</h3>
+            <p>2016.04.01</p>
+            <img src="../images/triangle.png">
+        </div>
+        <div class="right">
+            <h1>新世界/<label>01</label></h1>
+            <p>新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世
+                界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界新世界
+            </p>
+            <a href="#">更多详情</a>
+            <ul>
+                <li class="liActive"></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
+
+<!--新时代-->
+    <div class="com_3">
+        <div class="com_31">
+            <p>新时代</p>
+            <p>关于爱生活的我们</p>
+            <hr style="color: white;">
+            <a href="#">查看更多</a>
+        </div>
+        <div class="com_32">
+            <p>新时代</p>
+            <p>关于爱生活的我们</p>
+            <hr style="color: darkgray;">
+            <a href="#">查看更多</a>
+        </div>
+        <div class="com_33">
+            <img src="../images/waitingWoman.png" height="521">
+            <img src="../images/triangle.png">
+        </div>
+    </div>
+
+    <div style="clear: both"></div>
+
+<!--志愿者部分-->
+    <div class="volunteer">
+        <h2>成为我们的志愿者</h2>
+        <hr style="color:red;width: 3%">
+        <h3>新世界的大家庭需要每一个爱生活的人的加入，如果你够年轻，有梦想，有激情</h3>
+        <h3>那就不要犹豫，快来加入我们，成为改变所有人生活的人</h3>
+        <div class="protocol">
+            <div class="proLeft">
+                <h3>新世界志愿者协议</h3>
+                <p>加入新世界志愿者的人员必须遵守中华人民共和国的相关法律法规，并且本着平等自愿的原则......</p>
+                <p class="more"><img src="../images/arrow.png">   more </p>
+
+                <h3>新世界志愿者权利</h3>
+                <p>新世界职员制享受新世界内部所有资源共享的权利，并且享受所在新世界活动的优先参与资格</p>
+                <p class="more"><img src="../images/arrow.png">   more </p>
+
+                <h3>更多条款</h3>
+                <p class="more"><img src="../images/arrow.png">   more </p>
+            </div>
+
+            <table cellspacing="10">
+                <tr>
+                    <td>姓名：<input></td>
+                    <td>年龄：<input></td>
+                </tr>
+                <tr>
+                    <td>联系方式：<input></td>
+                    <td>联系地址：<input></td>
+                </tr>
+                <tr>
+                    <td colspan="2" ><textarea placeholder="请简单描述您梦想的生活："></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><p style="text-align: center; margin: 0"><button>提交申请</button></p></td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="contact">
+            <h2>联系我们</h2>
+            <p>为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品资讯，也可以通过以下任何方式关注我们动态</p>
+            <input placeholder="someone@email.com">
+            <a href="#">提  交</a>
+            <ul>
+                <li><img src="../images/QQ.png"> </li>
+                <li><img src="../images/webo.png"> </li>
+                <li><img src="../images/dove.png"> </li>
+                <li><img src="../images/network.png"> </li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer2">
+        <span>&copy;2016新世界</span>
+        <span>Back to top</span>
+    </div>
+</body>
+</html>

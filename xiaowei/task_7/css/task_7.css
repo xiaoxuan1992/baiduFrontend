@@ -1,0 +1,486 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-size: 12px;
+    font-family: 微软雅黑;
+    min-width: 1280px;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+h1,h2{font-weight: normal}
+li{
+    float: left;
+    list-style-type: none;
+}
+/*header*/
+header{
+    height: 50px;
+    padding: 10px 130px 0 50px;
+    vertical-align: middle;
+}
+header img{
+    vertical-align: text-bottom;
+}
+header span{
+    font-size: 21px;
+    height: 60px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    font-family: 黑体;
+}
+header ul{
+    float: right;
+}
+header ul li {
+    margin-left: 50px;
+    font-size: 14px;
+}
+header ul li:last-child a{
+    color: red;
+}
+header ul li a{
+    color: #787b83;
+    text-decoration: none;
+    height: 35px;
+    display: block;
+}
+.active{
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+/*大图*/
+.bigImg{
+    height: 704px;
+    width: 100%;
+    position: relative;
+    color: white;
+    top: -40px;
+}
+.bigImg img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height:704px;
+    width:100%;
+}
+.Time{
+    position: relative;
+    top:250px;
+    padding-left:150px;
+}
+.bigImg p{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+.bigImg h1{
+    font-size: 60px;
+    font-weight: normal;
+}
+.bigImg h2{
+    letter-spacing: 2px;
+    font-weight: normal;
+    font-size: 21px;
+}
+.bigImg a{
+    width: 320px;
+    height: 50px;
+    background-color: #e74f4d;
+    display: block;
+}
+.bigImg a h1{
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 4px;
+    padding-top: 5px;
+}
+
+/*四列*/
+.com_4{
+    width: 100%;
+}
+.com{
+    width: 20%;
+    text-align: center;
+    float: left;
+    padding: 20px;
+}
+.com h3{
+    margin-top: 30px;
+    font-weight: normal;
+    border-right: 1px solid gray;
+    padding: 0 30px;
+    line-height: 25px;
+    color: #767777;
+    font-size: 14px;
+    font-family: 黑体;
+}
+
+/*查找新世界活动*/
+.activity{
+    width: 100%;
+    background-color: #edecec;
+    text-align: center;
+}
+.activity p img:first-child{
+    padding-top: 100px; /* img无法居中，套一个p标签，然后写text-align：center*/
+}
+.activity h1{
+    color: #949494;
+    font-size: 54px;
+    letter-spacing: 3px;
+    font-weight: normal;
+    padding-bottom: 50px;
+    margin-bottom: 0;
+    font-family: 黑体;
+}
+.map{
+    position: relative;
+    width: 100%;
+    color: white;
+    height: 350px;
+}
+.map img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.map .searchMap{
+    position: relative;
+    top:50px;
+}
+.searchMap h3{
+    margin-top: 30px;
+}
+#chooseMap{
+    position: absolute;
+    top: 130px;
+    left: 20%;
+}
+.map1{
+    background-color: white;
+    width: 200px;
+    float: left;
+    margin-left: 20px;
+}
+.map1 a{
+    width: 200px;
+    height: 30px;
+    background-color: #e74f4d;
+    display: block;
+    line-height: 30px;
+    font-size: 14px;
+}
+#chooseMap select{
+    width: 200px;
+    height: 30px;
+    padding-left: 10px;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    background: url("../images/selec.png") no-repeat right center;
+}
+.shanghai{
+    margin-top: 80px;
+    position: relative;
+    height: 500px;
+}
+.shanghai li{
+    margin-left: 70px;
+}
+.shanghai li:nth-child(1){
+    margin-left: 150px;
+}
+.shanghai img{
+    border: 1px solid #ced4ef;
+    padding: 7px;
+    background-color: white;
+}
+.shanghai li P:last-child{
+    color: #888585;
+}
+.shanghai h2{
+    font-weight: bold;
+    letter-spacing: 30px;
+    margin-top: 0;
+}
+
+/*新世界介绍*/
+.com_2{
+    position: relative;
+    height: 567px;
+    text-align: center;
+}
+.com_2 .right{
+  /* float: right;
+    width: 500px;*/
+    margin-left: 860px;
+    padding-top: 150px;
+    padding-left: 50px;
+}
+.com_2 h1{
+  /*  text-align: center;*/
+    margin-top: 0;
+}
+.com_2 .right label{
+    color: red;
+}
+.com_2 .right p{
+    padding: 10px 70px 20px 50px;
+    text-align: left;
+    color: #d8d8d8;
+    font-family: 宋体;
+    line-height: 25px;
+}
+.com_3 a,.com_2 a,.contact a{
+    display: block;
+    border: 1px solid red;
+ /*   text-align: center;*/
+    margin: 0 auto;
+}
+.com_2 a{
+    color: red;
+    width: 100px;
+    height: 30px;
+    line-height: 30px;
+}
+.com_2 ul{
+    height: 30px;
+    width: 100px;
+    margin: 10px auto;
+}
+.com_2 li{
+    list-style-type: circle;
+    color: black;
+    font-size: 30px;
+    margin-left: 25px;
+}
+.com_2 .liActive{
+    list-style-type:disc;
+    color: gray;
+}
+.com_2 .left{
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.com_2 .left h2,.com_2 .left h1,.com_2 .left h3,.com_2 .left p{
+    color: white;
+   /* text-align: center;*/
+}
+.com_2 .left h2{
+    position: absolute;
+    left: 350px;
+    top: 80px;
+    font-size: 50px;
+}
+.com_2 .left h1{
+    position: absolute;
+    left: 250px;
+    top: 150px;
+    font-size: 158px;
+}
+.com_2 .left h3{
+    position: absolute;
+    left: 350px;
+    top: 320px;
+    font-size: 22px;
+}
+.com_2 .left p{
+    position: absolute;
+    left: 350px;
+    top: 360px;
+    font-size: 22px;
+}
+.com_2 .left img:last-child{
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+/*新时代*/
+.com_3{
+    width: 100%;
+    text-align: center;
+    font-size: 21px;
+    font-family: 黑体;
+}
+.com_31,.com_32,.com_33{
+    width: 33%;
+    float: left;
+    height: 521px;
+    position: relative;
+}
+.com_31{
+    background-color: red;
+    color: white;
+    margin-left: 1px;
+}
+.com_33 img:last-child{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform:rotate(180deg);
+}
+/*.line{
+    height: 1px;
+    width: 20px;
+    margin-top: 10px;
+    text-align: center;
+}*/
+.com_3 p:nth-child(n){
+    padding-top: 100px;
+}
+.com_3 p:nth-child(2n){
+    padding-top: 20px;
+}
+ hr{
+    width: 10%;
+    border: none;
+    border-top: 2px solid;
+}
+.com_3 a{
+    color: white;
+    width: 40%;
+    height: 40px;
+    line-height: 40px;
+    font-size: 21px;
+    margin-top: 40px;
+    font-family: 黑体;
+}
+.com_31 a{
+    border: 1px solid white;
+}
+.com_32 a{
+    color: red;
+}
+
+/*志愿者部分*/
+.volunteer{
+    margin-top: 100px;
+    text-align: center;
+}
+.volunteer h2{
+    letter-spacing: 3px;
+    font-size: 21px;
+    font-family: 黑体;
+}
+.volunteer h3{
+    color: #aaaaaa;
+}
+.proLeft{
+    width: 400px;
+    margin-left: 150px;
+    float: left;
+}
+.proLeft h3{
+    color: gray;
+    font-size: 14px;
+    text-align: left;
+    font-family: 黑体;
+}
+.proLeft p{
+    font-size: 12px;
+    color: darkgray;
+    line-height: 20px;
+    text-align: left;
+    font-family: 宋体;
+}
+.proLeft .more{
+   text-align: right;
+    font-size: 12px;
+}
+.volunteer table{
+    width: 700px;
+    padding-left: 50px;
+    font-family: 宋体;
+}
+.volunteer table tr{
+    background-color: #ececee;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+}
+.volunteer td{
+    padding-left: 20px;
+}
+.volunteer input,.volunteer textarea,.volunteer button{
+    border: none;
+    background-color: #ececee;
+}
+.volunteer input{
+    height: 40px;
+    width: 200px;
+}
+.volunteer textarea{
+    margin: 0;
+    width: 603px;
+    min-height: 140px;
+}
+.volunteer button{
+    font-size: 14px;
+    font-family: 黑体;
+}
+
+.footer{
+    margin-top: 100px;
+    height:400px;
+    background-color: #32363e;
+}
+.contact{
+    width: 35%;
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+.contact p{
+    line-height: 20px;
+    color: #f1f2f2;
+    padding: 5px 10px;
+}
+.contact input{
+    height: 30px;
+    line-height: 30px;
+    width: 380px;
+}
+.contact a{
+    background-color: #707278;
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+    display: inline-block;
+    border: none;
+    color: white;
+    vertical-align: bottom;
+    font-size: 16px;
+}
+.contact ul{
+    margin: 50px auto;
+}
+.contact li{
+    margin-left: 30px;
+}
+.contact li:first-child{margin-left: 100px}
+.footer2{
+    background-color: #2f3038;
+    height: 60px;
+    font-family: 宋体;
+}
+.footer2 span{
+    color: white;
+    line-height: 60px;
+}
+.footer2 span:first-child{
+    text-align: left;
+    padding-left: 100px;
+}
+.footer2 span:last-child{
+    float: right;
+    text-align: right;
+    margin-right: 100px;
+}
