@@ -6,47 +6,64 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>任务八：响应式网格（栅格化）布局</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <!--[if lt IE 9]>
-    <script src="../js/html5shiv.js"></script>
-    <script src="../js/respond.min.js"></script>
-    <![endif]-->
-    <style>
-        .row{
-            margin-top: 20px;
+   <!-- [if lt IE 9]>
+   <!-- <script src="../js/html5shiv.js"></script>
+    <script src="../js/respond.min.js"></script>-->
+<!--    <![endif]&ndash;&gt;-->
+    <style type="text/css">
+       .row div{
+            padding: 0;
+        }
+        .inner{
+            height: 50px;
+            border:1px solid #999;
+            background-color: #eee;
+            margin:10px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-           <!-- &lt;!&ndash;&gt;=768的是sm <768的是xs&ndash;&gt;-->
+         <!--  &lt;!&ndash; &lt;!&ndash;&gt;=768的是sm <768的是xs&ndash;&gt;&ndash;&gt;-->
             <div class="row">
-                    <div class="col-sm-4 col-xs-6" style="background-color: #eeeeee; border: 1px solid #999999;height: 50px;">
+                    <div class="col-sm-4 col-xs-6 box">
+                        <div class="inner"></div>
                     </div>
-                    <div class="col-sm-4 col-xs-6" style="background-color: #eeeeee; border: 1px solid #999999;height: 50px;">
+                    <div class="col-sm-4 col-xs-6 box" >
+                        <div class="inner"></div>
                     </div>
-                <div class="col-sm-4 col-xs-12" style="background-color: #eeeeee; border: 1px solid #999999;height: 50px;">
+                <div class="col-sm-4 col-xs-12 box">
+                    <div class="inner"></div>
                 </div>
             </div>
 
         <div class="row">
-            <div class=" col-sm-3 col-xs-3" style="background-color: #eeeeee; border: 1px solid #999999;height: 50px;">
+            <div class=" col-sm-3 col-xs-3 box" >
+                <div class="inner"></div>
             </div>
-            <div class=" col-sm-6 col-xs-6" style="background-color: #eeeeee; border: 1px solid #999999;height: 50px;">
+            <div class=" col-sm-6 col-xs-6 box">
+                <div class="inner"></div>
             </div>
-            <div class=" col-sm-3 col-xs-3" style="background-color: #eeeeee; border: 1px solid #999999;height: 50px;">
+            <div class=" col-sm-3 col-xs-3 box">
+                <div class="inner"></div>
             </div>
         </div>
 
         <div class="row">
-            <div class=" col-sm-1 col-xs-2" style="background-color: #eeeeee; border: 1px solid #999999;height: 50px;">
+            <div class=" col-sm-1 col-xs-2 box">
+                <div class="inner"></div>
             </div>
-            <div class=" col-sm-1 col-xs-2" style="background-color: #eeeeee; border: 1px solid #999999;height: 50px;">
+            <div class=" col-sm-1 col-xs-2 box">
+                <div class="inner"></div>
             </div>
-            <div class=" col-sm-2 col-xs-8" style="background-color: #eeeeee; border: 1px solid #999999;height: 50px;">
+            <div class=" col-sm-2 col-xs-8 box">
+                <div class="inner"></div>
             </div>
-            <div class=" col-sm-2 col-xs-3" style="background-color: #eeeeee; border: 1px solid #999999;height: 50px;">
+            <div class=" col-sm-2 col-xs-3 box">
+                <div class="inner"></div>
             </div>
-            <div class=" col-sm-6 col-xs-3" style="background-color: #eeeeee; border: 1px solid #999999;height: 50px;">
+            <div class=" col-sm-6 col-xs-3 box">
+                <div class="inner"></div>
             </div>
         </div>
 
